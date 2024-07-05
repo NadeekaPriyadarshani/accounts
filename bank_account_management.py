@@ -37,8 +37,8 @@ def update_account(account_number: str, balance: float):
 # Example:
 if __name__ == "__main__":
     #testing
-    print("Initial balance:", get_balance("123456"))
-    deposit("123456", 100.0)
-    print("Balance after deposit:", get_balance("123456"))
-    withdraw("123456", 50.0)
-    print("Balance after withdrawal:", get_balance("123456"))
+    print("Initial balance:", get_balance("345678"))
+    deposit("345678", 100.0)
+    print("Balance after deposit:", get_balance("345678"))
+    withdraw("345678", 50.0)
+    print("Balance after withdrawal:", get_balance("345678"))

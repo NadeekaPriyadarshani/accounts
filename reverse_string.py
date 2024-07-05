@@ -3,7 +3,7 @@ def reverse_string(s: str) -> str:
 
 # Example :
 if __name__ == "__main__":
-    example_string = "hello"
-    reversed_string = reverse_string(example_string)
-    print(f"Original string: {example_string}")
+    sample_string = "hello"
+    reversed_string = reverse_string(sample_string)
+    print(f"Original string: {sample_string}")
     print(f"Reversed string: {reversed_string}")
